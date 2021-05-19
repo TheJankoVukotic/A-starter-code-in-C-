@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Practicing_Some_C__sry_but_no_sharp_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hi!");
+            Console.WriteLine("What is your name?");
+            string input = Console.ReadLine();
+            Console.WriteLine($"Your username is {input}!");
+
+            double myDouble = 3.2;
+
+            // Round myDouble to the nearest whole number
+            int myInt = (int)myDouble;
+
+            //Numerical numbers
+            int secondInt = 7;
+            double secondDouble = 39.76876;
+
+            //Loging in the numbers
+            Console.WriteLine(secondInt);
+            Console.WriteLine(secondDouble);
+
+            Console.ReadLine();
+        }
+    }
+}
